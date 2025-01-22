@@ -1,14 +1,20 @@
-* {
+body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  height: 100vh;
 }
 
-#intro {
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
+body::before {
+  content: "";
   background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 #avatar {
@@ -34,6 +40,7 @@
     font: var(--title-lg);
     color: var(--gray-600);
     padding-bottom: 20px;
+    margin: 0;
   }
 
   p {
@@ -41,11 +48,97 @@
     color: var(--gray-400);
     width: 680px;
     margin-left: 25px;
+    padding-bottom: 80px;
   }
 }
 
 #icons {
   display: flex;
+  width: 754px;
+  gap: 16px;
+  font: var(--text-md);
+  color: var(--gray-500);
+}
+
+.git {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  padding-top: 80px;
+  align-items: center;
+  padding: 0 16px;
+  width: 138px;
+  height: 40px;
+  gap: 8px;
+  background-color: var(--gray-300);
+  border-radius: 999px;
+}
+
+.html {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+  width: 138px;
+  height: 40px;
+  gap: 8px;
+  background-color: var(--gray-300);
+  border-radius: 999px;
+}
+
+.css {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+  width: 138px;
+  height: 40px;
+  gap: 8px;
+  background-color: var(--gray-300);
+  border-radius: 999px;
+}
+
+.js {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+  width: 138px;
+  height: 40px;
+  gap: 8px;
+  background-color: var(--gray-300);
+  border-radius: 999px;
+}
+
+.react {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+  width: 138px;
+  height: 40px;
+  gap: 8px;
+  background-color: var(--gray-300);
+  border-radius: 999px;
+}
+
+.node-js {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+  width: 138px;
+  height: 40px;
+  gap: 8px;
+  background-color: var(--gray-300);
+  border-radius: 999px;
+}
+
+#caret {
+  padding-top: 94px;
+  justify-self: center;
 }
