@@ -269,7 +269,7 @@ body {
     padding-top: 20px;
     gap: 8px;
   }
-  
+
   p {
     color: var(--gray-500);
     font: var(--text-sm);
@@ -277,4 +277,70 @@ body {
     padding-top: 8px;
 
   }
+}
+
+/* * Estilizando a #contact */
+#contact {
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 128px 120px 200px;
+
+  header {
+    margin-bottom: 48px;
+    justify-items: center;
+
+    p {
+      color: var(--purple);
+      font: var(--subtitle);
+      margin: 8px;
+    }
+
+    h3 {
+      color: var(--gray-600);
+      font: var(--title-md);
+      margin: 8px;
+    }
+
+    span {
+      color: var(--gray-500);
+      font: var(--text-md);
+    }
+  }
+}
+
+/* * Estilizando a #Links*/
+#links {
+  justify-items: center;
+  box-sizing: border-box;
+  #logo {
+    width: 28px;
+    height: 28px;
+    align-self: center;
+    padding-left: 20px;
+  }
+
+  p {
+    color: var(--gray-500);
+    font: var(--text-md);
+    align-self: center;
+    width: 288px;
+  }
+
+  span {
+    align-self: center;
+  }
+}
+
+/* * Estilizando as divs de #links */
+#links > div {
+  box-sizing: border-box;
+  display: flex;
+  gap: 12px;
+  height: 68px;
+  width: 400px;
+  border-radius: 8px;
+  background-color: var(--gray-300);
+  margin-bottom: 16px;
+
 }
