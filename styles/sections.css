@@ -215,6 +215,10 @@ body {
   }
 }
 
+.project:hover {
+  outline: 2px solid var(--gray-500);
+}
+
 /* * Definindo o background da section */
 #services {
   background-color: var(--gray-100);
@@ -343,4 +347,8 @@ body {
   background-color: var(--gray-300);
   margin-bottom: 16px;
 
+}
+
+#links>div:hover {
+  outline: 2px solid var(--blue);
 }
